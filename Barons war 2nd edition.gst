@@ -2411,7 +2411,7 @@ If this movement takes the Group off the table, it plays no further part in theÂ
         <entryLink import="true" name="Spear" hidden="false" id="6e72-f88f-ff3a-8ee4" type="selectionEntry" targetId="b5d6-e3f3-2300-d647" collective="true"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ca4c-231a-1d28-6c40" name="Mounted Serjant Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="531f-7bf5-1aef-0a1f">
+    <selectionEntryGroup id="ca4c-231a-1d28-6c40" name="Mounted Serjant Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="a776-9408-fcbe-2505">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9ee-8a1b-44ae-ce2c" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4b0-3428-5008-9cf6" type="min"/>
@@ -2469,9 +2469,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="8"/>
           </costs>
-          <categoryLinks>
-            <categoryLink targetId="2f15-65d2-478c-bd34" id="e132-be30-54e1-4af6" primary="false" name="green troops"/>
-          </categoryLinks>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2529,9 +2526,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="8"/>
           </costs>
-          <categoryLinks>
-            <categoryLink targetId="2f15-65d2-478c-bd34" id="99ac-94a8-bd0a-63d3" primary="false" name="green troops"/>
-          </categoryLinks>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2586,7 +2580,7 @@ If this movement takes the Group off the table, it plays no further part in theÂ
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d5f2-401f-2d67-cbb2" name="Spearman Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="233f-b82d-7717-ef57">
+    <selectionEntryGroup id="d5f2-401f-2d67-cbb2" name="Spearman Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="0591-efc1-f4e2-16cb">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7799-38c4-3382-4dd1" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bb4-4d85-29a7-124f" type="min"/>
@@ -2611,9 +2605,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="8"/>
           </costs>
-          <categoryLinks>
-            <categoryLink targetId="2f15-65d2-478c-bd34" id="276d-cbbd-aad8-6bc7" primary="false" name="green troops"/>
-          </categoryLinks>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2711,7 +2702,7 @@ If this movement takes the Group off the table, it plays no further part in theÂ
         </modifier>
       </modifiers>
     </selectionEntryGroup>
-    <selectionEntryGroup id="51e8-3ab2-8338-60be" name="Militant monk Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="233f-b82d-7717-ef57">
+    <selectionEntryGroup id="51e8-3ab2-8338-60be" name="Militant monk Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="4553-313a-4b20-205b">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0d6-6e19-e3b2-6157" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93b4-0e10-c14e-97dc" type="min"/>
@@ -2731,9 +2722,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="9"/>
           </costs>
-          <categoryLinks>
-            <categoryLink targetId="2f15-65d2-478c-bd34" id="a75f-a235-2fe0-0e7c" primary="false" name="green troops"/>
-          </categoryLinks>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -2811,7 +2799,7 @@ If this movement takes the Group off the table, it plays no further part in theÂ
         </modifier>
       </modifiers>
     </selectionEntryGroup>
-    <selectionEntryGroup id="dbd9-772c-5899-ffcc" name="Levy Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="233f-b82d-7717-ef57">
+    <selectionEntryGroup id="dbd9-772c-5899-ffcc" name="Levy Experience level" hidden="false" collective="false" import="true" defaultSelectionEntryId="346b-32d3-f8a9-a068">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c13-34e8-2f16-d9c9" type="max"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5abe-c320-b87a-9339" type="min"/>
@@ -2826,9 +2814,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="9"/>
           </costs>
-          <categoryLinks>
-            <categoryLink targetId="2f15-65d2-478c-bd34" id="a78b-5368-00af-74b8" primary="false" name="green troops"/>
-          </categoryLinks>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -3688,22 +3673,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="58f6-00ed-08dc-a0bb" includeChildSelections="true"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Chivalry" hidden="false" id="e5a8-d8cb-11c6-84ff" type="selectionEntry" targetId="62f2-c1dc-6ae1-fd8e" collective="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9cbe-ed43-ab96-77eb" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="afe2-883d-703e-3954" includeChildSelections="true"/>
-          </constraints>
-          <costs>
-            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
-          </costs>
-          <modifiers>
-            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
         <entryLink import="true" name="Close ranks" hidden="true" id="896f-796d-776e-cf3f" type="selectionEntry" targetId="289f-eccf-0d3b-7ab3" collective="true">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -3735,8 +3704,8 @@ If this movement takes the Group off the table, it plays no further part in theÂ
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f446-3f49-b681-09e1" shared="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de78-136d-16ff-9cc0" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f446-3f49-b681-09e1" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de78-136d-16ff-9cc0" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3804,22 +3773,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Every bloody sunday " hidden="false" id="06fe-8033-bad3-5f27" type="selectionEntry" targetId="36fc-f5b9-b5fa-3368" collective="true">
-          <costs>
-            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f8fa-4625-b6b4-f420" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7476-b96b-5bf7-5127" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
         <entryLink import="true" name="Experienced tactician" hidden="true" id="b126-4752-9422-acfa" type="selectionEntry" targetId="54a4-d4fe-a86b-2206" collective="true">
           <modifiers>
             <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
@@ -3840,27 +3793,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
           <costs>
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
-        </entryLink>
-        <entryLink import="true" name="Faith" hidden="false" id="dcec-29bf-9c4e-eaf0" type="selectionEntry" targetId="d06b-3ff8-d5b0-de38" collective="true">
-          <costs>
-            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc2c-c1dc-44e2-c6a9" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0ee4-7d54-49b7-c46c" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="0ee4-7d54-49b7-c46c">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="f7f6-84ce-9c81-32f7" shared="true" roundUp="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-          </modifiers>
         </entryLink>
         <entryLink import="true" name="Faithful" hidden="false" id="4101-2bbd-fb10-a057" type="selectionEntry" targetId="2be5-5ae8-ce8f-a23e" collective="true">
           <constraints>
@@ -4000,54 +3932,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Live by the sword" hidden="false" id="ccaa-ebef-ece3-7380" type="selectionEntry" targetId="576c-c58c-4082-1a4d" collective="true">
-          <costs>
-            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c2f-6c70-2be5-c79b" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c32a-cb0b-49ad-e149" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Marksman" hidden="false" id="76b5-fc7e-cb9e-e44d" type="selectionEntry" targetId="2e4b-6660-1f70-5d04" collective="true">
-          <costs>
-            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="415a-5dbc-b7a8-f15f" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2195-6e79-3fbf-b380" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Martial respect" hidden="false" id="be4e-5988-0a3a-3f8f" type="selectionEntry" targetId="2a36-a92a-89bb-baf6" collective="true">
-          <costs>
-            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2117-316a-76f0-d5ee" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2371-bd33-e3a8-e001" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
         <entryLink import="true" name="Master fletcher" hidden="false" id="888b-eb09-6ac3-04bc" type="selectionEntry" targetId="d94a-7760-65b5-a284" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8eda-d06f-461e-73ed" includeChildSelections="false"/>
@@ -4170,32 +4054,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Ride down" hidden="false" id="be75-9395-bc5c-8acd" type="selectionEntry" targetId="68e0-9ef1-13ab-3c30" collective="true">
-          <costs>
-            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="643e-db7b-eb97-54fb" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0cb3-181e-0ea8-db49" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f446-3f49-b681-09e1" shared="true"/>
-                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de78-136d-16ff-9cc0" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </entryLink>
         <entryLink import="true" name="Robust" hidden="true" id="ad6b-b8f9-4c75-9e6a" type="selectionEntry" targetId="c71e-345e-55fc-a138" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ae2-4253-e847-6f0e" includeChildSelections="false"/>
@@ -4243,27 +4101,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
             <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
           </costs>
         </entryLink>
-        <entryLink import="true" name="Sorry m&apos;lord" hidden="false" id="c623-1116-15bc-1267" type="selectionEntry" targetId="0ab1-c9b3-93aa-605b" collective="true">
-          <costs>
-            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89e2-1a0d-6489-735e" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c9e4-871a-a22f-fb51" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="c9e4-871a-a22f-fb51">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="force" childId="c257-259e-a1be-0d6b" shared="true" roundUp="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </entryLink>
         <entryLink import="true" name="Surefooted" hidden="false" id="ce60-0d9f-85a5-dda1" type="selectionEntry" targetId="27b5-b826-f15c-eb1c" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a0b1-75c9-1b77-a1e5" includeChildSelections="false"/>
@@ -4306,19 +4143,6 @@ If this movement takes the Group off the table, it plays no further part in theÂ
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da7f-1e47-245b-4e96" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6503-f1a9-1b08-3be4" includeChildSelections="true"/>
           </constraints>
-        </entryLink>
-        <entryLink import="true" name="Brace" hidden="false" id="3047-2ee3-e6df-33b0" type="selectionEntry" targetId="67ef-023e-1a92-a3ae" collective="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f182-5f00-804e-d228" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="67a0-1f7e-d4ac-a601" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
         </entryLink>
       </entryLinks>
       <constraints>

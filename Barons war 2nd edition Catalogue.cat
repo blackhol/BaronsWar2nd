@@ -6,10 +6,10 @@
         <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
       </costs>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="knight" hidden="false" id="066b-3872-2da5-f18b">
+        <selectionEntry type="model" import="true" name="knight" hidden="false" id="066b-3872-2da5-f18b" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Knight Experience level" hidden="false" id="f4bc-c8ce-eaf9-01d7" type="selectionEntryGroup" targetId="73aa-dacd-a950-9ea2" collective="true"/>
-            <entryLink import="true" name="Knight Weapon" hidden="false" id="684a-1e35-e2b9-aa19" type="selectionEntryGroup" targetId="30c4-4c31-7104-9a85"/>
+            <entryLink import="true" name="Knight Experience level" hidden="false" id="f4bc-c8ce-eaf9-01d7" type="selectionEntryGroup" targetId="73aa-dacd-a950-9ea2" collective="true" sortIndex="1"/>
+            <entryLink import="true" name="Knight Weapon" hidden="false" id="684a-1e35-e2b9-aa19" type="selectionEntryGroup" targetId="30c4-4c31-7104-9a85" sortIndex="2"/>
             <entryLink import="true" name="Mail" hidden="false" id="6b12-9638-65d6-680e" type="selectionEntry" targetId="b805-5e69-0339-2595" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a79d-bbd0-8d7c-81b3-min" includeChildSelections="false"/>
@@ -32,13 +32,13 @@
         <categoryLink targetId="31dd-0fdb-79bb-5162" id="9b07-a4db-0d5c-6c89" primary="true" name="Warriors (Tier1)"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Knight Inherent Abilities" hidden="false" id="8792-1caf-a604-4c31" type="selectionEntryGroup" targetId="0e37-2a3e-7531-dbba" collective="true"/>
+        <entryLink import="true" name="Knight Inherent Abilities" hidden="false" id="8792-1caf-a604-4c31" type="selectionEntryGroup" targetId="0e37-2a3e-7531-dbba" collective="true" sortIndex="3"/>
         <entryLink import="true" name="Feudal European abilities" hidden="false" id="b5ef-12e5-e898-a6ab" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a827-26eb-c92e-5f80" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Commandgroup" hidden="false" id="f1e6-e70c-d5eb-1764" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5">
+        <entryLink import="true" name="Commandgroup" hidden="false" id="f1e6-e70c-d5eb-1764" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5" sortIndex="1">
           <modifiers>
             <modifier type="add" value="2c08-30a5-a557-882a" field="category" scope="parent" affects="self.entries.forces.recursive">
               <conditions>
@@ -54,7 +54,7 @@
         <categoryLink targetId="31dd-0fdb-79bb-5162" id="1b66-5f67-5714-1040" primary="true" name="Warriors (Tier1)"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mounted knight" hidden="false" id="70d3-6474-27d9-8e24">
+        <selectionEntry type="model" import="true" name="Mounted knight" hidden="false" id="70d3-6474-27d9-8e24" sortIndex="2">
           <entryLinks>
             <entryLink import="true" name="Mail" hidden="false" id="0bc6-7678-a43a-ae45" type="selectionEntry" targetId="b805-5e69-0339-2595" collective="true">
               <constraints>
@@ -62,16 +62,16 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea4d-c605-d8e7-fea5-max" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Mounts" hidden="false" id="27ab-23ff-172b-15d4" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86" collective="true">
+            <entryLink import="true" name="Mounts" hidden="false" id="27ab-23ff-172b-15d4" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86" collective="true" sortIndex="5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0778-7d00-d3a7-ae84" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a4d3-3c7a-c3d5-4846" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Mounted Knight Weapon" hidden="false" id="111e-1d5d-222a-da1b" type="selectionEntryGroup" targetId="10d0-c172-8141-37d4" collective="true"/>
-            <entryLink import="true" name="Mounted knight Experience level" hidden="false" id="c843-4e94-b48c-342c" type="selectionEntryGroup" targetId="3578-c8c4-2aba-0350" collective="true"/>
-            <entryLink import="true" name="Mounted knight shield" hidden="false" id="c0c2-4179-7471-a2fd" type="selectionEntryGroup" targetId="0d10-44ee-88c3-8efe" collective="true"/>
-            <entryLink import="true" name="Mounted knight may choose weapon" hidden="false" id="a2cf-80b1-c32c-7ef8" type="selectionEntryGroup" targetId="26b7-724e-42ec-8075" collective="true">
+            <entryLink import="true" name="Mounted Knight Weapon" hidden="false" id="111e-1d5d-222a-da1b" type="selectionEntryGroup" targetId="10d0-c172-8141-37d4" collective="true" sortIndex="2"/>
+            <entryLink import="true" name="Mounted knight Experience level" hidden="false" id="c843-4e94-b48c-342c" type="selectionEntryGroup" targetId="3578-c8c4-2aba-0350" collective="true" sortIndex="1"/>
+            <entryLink import="true" name="Mounted knight shield" hidden="false" id="c0c2-4179-7471-a2fd" type="selectionEntryGroup" targetId="0d10-44ee-88c3-8efe" collective="true" sortIndex="4"/>
+            <entryLink import="true" name="Mounted knight may choose weapon" hidden="false" id="a2cf-80b1-c32c-7ef8" type="selectionEntryGroup" targetId="26b7-724e-42ec-8075" collective="true" sortIndex="3">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a8c-1870-80d9-5c2d" includeChildSelections="false"/>
               </constraints>
@@ -88,8 +88,8 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dd40-f874-3c48-a211" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="mounted knight Inherent Abilities" hidden="false" id="d7f5-b696-f614-a9ce" type="selectionEntryGroup" targetId="77c8-1fa0-6afd-4590" collective="true"/>
-        <entryLink import="true" name="Commandgroup" hidden="false" id="c20d-3516-0633-2d27" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5">
+        <entryLink import="true" name="mounted knight Inherent Abilities" hidden="false" id="d7f5-b696-f614-a9ce" type="selectionEntryGroup" targetId="77c8-1fa0-6afd-4590" collective="true" sortIndex="3"/>
+        <entryLink import="true" name="Commandgroup" hidden="false" id="c20d-3516-0633-2d27" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5" sortIndex="1">
           <modifiers>
             <modifier type="add" value="2c08-30a5-a557-882a" field="category" scope="parent" affects="self.entries.forces.recursive">
               <conditions>
@@ -102,11 +102,11 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Serjeants" hidden="false" id="a74d-383f-403f-7443">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Serjant" hidden="false" id="7ef4-58e5-e710-e876">
+        <selectionEntry type="model" import="true" name="Serjant" hidden="false" id="7ef4-58e5-e710-e876" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Serjeant Experience level" hidden="false" id="d49d-375e-24d6-a50c" type="selectionEntryGroup" targetId="c61b-09fe-a5b6-ed19" collective="true"/>
-            <entryLink import="true" name="Serjeant Weapon" hidden="false" id="0c55-66d5-71c6-c8be" type="selectionEntryGroup" targetId="c699-124d-016a-a277" collective="true"/>
-            <entryLink import="true" name="Serjeant shield" hidden="false" id="8525-8d2d-6c07-134a" type="selectionEntryGroup" targetId="a13e-d11f-392a-3c4c" collective="true"/>
+            <entryLink import="true" name="Serjeant Experience level" hidden="false" id="d49d-375e-24d6-a50c" type="selectionEntryGroup" targetId="c61b-09fe-a5b6-ed19" collective="true" sortIndex="1"/>
+            <entryLink import="true" name="Serjeant Weapon" hidden="false" id="0c55-66d5-71c6-c8be" type="selectionEntryGroup" targetId="c699-124d-016a-a277" collective="true" sortIndex="2"/>
+            <entryLink import="true" name="Serjeant shield" hidden="false" id="8525-8d2d-6c07-134a" type="selectionEntryGroup" targetId="a13e-d11f-392a-3c4c" collective="true" sortIndex="3"/>
             <entryLink import="true" name="Serjeant Armour" hidden="false" id="5e1f-2adb-41fd-2eff" type="selectionEntryGroup" targetId="fcc5-d8cb-8e48-67a9" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0f66-6610-0c30-792e" includeChildSelections="false"/>
@@ -128,8 +128,8 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96ef-edc1-ac63-126e" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Serjeant Inherent Abilities" hidden="false" id="9b94-f338-0a8e-aebf" type="selectionEntryGroup" targetId="a9fc-4f15-e411-fc2d" collective="true"/>
-        <entryLink import="true" name="Commandgroup" hidden="false" id="ffdd-9ee0-1600-3247" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5">
+        <entryLink import="true" name="Serjeant Inherent Abilities" hidden="false" id="9b94-f338-0a8e-aebf" type="selectionEntryGroup" targetId="a9fc-4f15-e411-fc2d" collective="true" sortIndex="3"/>
+        <entryLink import="true" name="Commandgroup" hidden="false" id="ffdd-9ee0-1600-3247" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5" sortIndex="1">
           <modifiers>
             <modifier type="add" value="2c08-30a5-a557-882a" field="category" scope="parent" affects="self.entries.forces.recursive">
               <conditions>
@@ -150,8 +150,8 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ca9-bf6c-a96b-ca7c" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Marksman Serjant Experience level" hidden="false" id="cf8c-2b1f-e31d-83e3" type="selectionEntryGroup" targetId="bb16-e429-0327-4ee3"/>
-            <entryLink import="true" name="Marksman Serjant weapon" hidden="false" id="ac30-fb57-3cff-51c4" type="selectionEntryGroup" targetId="5c03-90f8-577e-0035" collective="true"/>
+            <entryLink import="true" name="Marksman Serjant Experience level" hidden="false" id="cf8c-2b1f-e31d-83e3" type="selectionEntryGroup" targetId="bb16-e429-0327-4ee3" sortIndex="1"/>
+            <entryLink import="true" name="Marksman Serjant weapon" hidden="false" id="ac30-fb57-3cff-51c4" type="selectionEntryGroup" targetId="5c03-90f8-577e-0035" collective="true" sortIndex="2"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="8215-7133-9954-2f91"/>
@@ -172,17 +172,17 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mounted serjeants" hidden="false" id="9d90-3ca3-cb22-234c">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mounted serjeant" hidden="false" id="638c-5490-4f41-7db0">
+        <selectionEntry type="model" import="true" name="Mounted serjeant" hidden="false" id="638c-5490-4f41-7db0" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Mounted Serjant Experience level" hidden="false" id="5334-e5bc-a1dc-17bc" type="selectionEntryGroup" targetId="ca4c-231a-1d28-6c40" collective="true"/>
+            <entryLink import="true" name="Mounted Serjant Experience level" hidden="false" id="5334-e5bc-a1dc-17bc" type="selectionEntryGroup" targetId="ca4c-231a-1d28-6c40" collective="true" sortIndex="1"/>
             <entryLink import="true" name="Mounted Serjant Armour" hidden="false" id="82f0-d0cf-5bb2-8ab7" type="selectionEntryGroup" targetId="2476-b61c-7780-b3f6" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f58-4379-df4f-5ee5" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cfc1-245d-ee28-c2b6" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Mounted Serjant Weapon" hidden="false" id="6f27-64e1-e34b-1390" type="selectionEntryGroup" targetId="7e2e-babe-b404-4911" collective="true"/>
-            <entryLink import="true" name="Mounted Serjeant shield" hidden="false" id="fec9-add8-af28-fd53" type="selectionEntryGroup" targetId="947c-b574-90a6-75d3" collective="true"/>
+            <entryLink import="true" name="Mounted Serjant Weapon" hidden="false" id="6f27-64e1-e34b-1390" type="selectionEntryGroup" targetId="7e2e-babe-b404-4911" collective="true" sortIndex="2"/>
+            <entryLink import="true" name="Mounted Serjeant shield" hidden="false" id="fec9-add8-af28-fd53" type="selectionEntryGroup" targetId="947c-b574-90a6-75d3" collective="true" sortIndex="3"/>
             <entryLink import="true" name="Mounts" hidden="false" id="3564-27a0-26a6-6136" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86" collective="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ece4-d6f1-1a98-eec8"/>
@@ -204,8 +204,8 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25a7-c98f-13c8-6c30" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Mounted Serjant Inherent Abilities" hidden="false" id="1868-f2ea-286e-0fd6" type="selectionEntryGroup" targetId="008e-e028-95ec-26e8" collective="true"/>
-        <entryLink import="true" name="Commandgroup" hidden="false" id="4d61-f46b-1f7a-529e" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5">
+        <entryLink import="true" name="Mounted Serjant Inherent Abilities" hidden="false" id="1868-f2ea-286e-0fd6" type="selectionEntryGroup" targetId="008e-e028-95ec-26e8" collective="true" sortIndex="3"/>
+        <entryLink import="true" name="Commandgroup" hidden="false" id="4d61-f46b-1f7a-529e" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5" sortIndex="1">
           <modifiers>
             <modifier type="add" value="2c08-30a5-a557-882a" field="category" scope="parent" affects="self.entries.forces.recursive">
               <conditions>
@@ -228,7 +228,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ab1-93d8-22c1-ed6e" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Crossbowman Experience level" hidden="false" id="c6b3-2570-be37-524c" type="selectionEntryGroup" targetId="602c-b5c6-5507-bcd4" collective="true">
+            <entryLink import="true" name="Crossbowman Experience level" hidden="false" id="c6b3-2570-be37-524c" type="selectionEntryGroup" targetId="602c-b5c6-5507-bcd4" collective="true" sortIndex="1">
               <modifiers>
                 <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
                   <conditions>
@@ -237,12 +237,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Crossbowman weapon" hidden="false" id="053d-423c-0813-9ae9" type="selectionEntryGroup" targetId="dbaa-9fe2-76a9-81df" collective="true"/>
-            <entryLink import="true" name="Feudal European abilities" hidden="false" id="1235-bba5-93e0-3e06" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="432f-52dd-a24c-c218" includeChildSelections="false"/>
-              </constraints>
-            </entryLink>
+            <entryLink import="true" name="Crossbowman weapon" hidden="false" id="053d-423c-0813-9ae9" type="selectionEntryGroup" targetId="dbaa-9fe2-76a9-81df" collective="true" sortIndex="2"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="7b5d-f35c-d854-bd06"/>
@@ -252,17 +247,24 @@
       <categoryLinks>
         <categoryLink targetId="31dd-0fdb-79bb-5162" id="60e1-b140-0cc6-1d18" primary="true" name="Warriors (Tier1)"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Feudal European abilities" hidden="false" id="a86f-9d90-11d0-e682" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dfbd-e4ef-91d4-93c8" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Bowmen" hidden="false" id="e268-ef43-a82d-fe4d">
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Bowman" hidden="false" id="29d8-e4c6-04a5-e277" collective="false">
           <entryLinks>
-            <entryLink import="true" name="Bowman Armour" hidden="false" id="fa32-b352-3f9b-7018" type="selectionEntryGroup" targetId="7774-160c-9fed-1f42" collective="true">
+            <entryLink import="true" name="Bowman Armour" hidden="false" id="fa32-b352-3f9b-7018" type="selectionEntryGroup" targetId="7774-160c-9fed-1f42" collective="true" sortIndex="3">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="04ab-d729-1660-52ff" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Bowman Experience level" hidden="false" id="d5fe-75bc-98f2-9919" type="selectionEntryGroup" targetId="0a5a-acd8-e43a-7fc2" collective="true">
+            <entryLink import="true" name="Bowman Experience level" hidden="false" id="d5fe-75bc-98f2-9919" type="selectionEntryGroup" targetId="0a5a-acd8-e43a-7fc2" collective="true" sortIndex="1">
               <modifiers>
                 <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
                   <conditions>
@@ -271,7 +273,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Bowman weapon" hidden="false" id="42e8-93b8-4141-f6fc" type="selectionEntryGroup" targetId="eb6a-0428-17e0-ee43" collective="true"/>
+            <entryLink import="true" name="Bowman weapon" hidden="false" id="42e8-93b8-4141-f6fc" type="selectionEntryGroup" targetId="eb6a-0428-17e0-ee43" collective="true" sortIndex="2"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="dbb2-e805-770a-b6ea"/>
@@ -292,9 +294,9 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Spearmen" hidden="false" id="98ad-e73c-28bf-3e10">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Spearman" hidden="false" id="14f1-129f-e4f2-45e3">
+        <selectionEntry type="model" import="true" name="Spearman" hidden="false" id="14f1-129f-e4f2-45e3" sortIndex="2">
           <entryLinks>
-            <entryLink import="true" name="Spearman Experience level" hidden="false" id="11bb-0b49-4665-3358" type="selectionEntryGroup" targetId="d5f2-401f-2d67-cbb2" collective="true">
+            <entryLink import="true" name="Spearman Experience level" hidden="false" id="11bb-0b49-4665-3358" type="selectionEntryGroup" targetId="d5f2-401f-2d67-cbb2" collective="true" sortIndex="1">
               <modifiers>
                 <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
                   <conditions>
@@ -303,9 +305,9 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Spearman Armour" hidden="false" id="4b70-8ae2-f90f-92e2" type="selectionEntryGroup" targetId="37d9-0f94-aa67-b905" collective="true"/>
-            <entryLink import="true" name="Spearman shield" hidden="false" id="aec3-2caa-2061-478f" type="selectionEntryGroup" targetId="21ae-ca55-502a-fdd1" collective="true"/>
-            <entryLink import="true" name="Spearman weapon" hidden="false" id="b1b8-126c-a3e7-350d" type="selectionEntryGroup" targetId="caa5-a3f6-70b1-ce3b" collective="true"/>
+            <entryLink import="true" name="Spearman Armour" hidden="false" id="4b70-8ae2-f90f-92e2" type="selectionEntryGroup" targetId="37d9-0f94-aa67-b905" collective="true" sortIndex="4"/>
+            <entryLink import="true" name="Spearman shield" hidden="false" id="aec3-2caa-2061-478f" type="selectionEntryGroup" targetId="21ae-ca55-502a-fdd1" collective="true" sortIndex="3"/>
+            <entryLink import="true" name="Spearman weapon" hidden="false" id="b1b8-126c-a3e7-350d" type="selectionEntryGroup" targetId="caa5-a3f6-70b1-ce3b" collective="true" sortIndex="2"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="dda5-d735-f9c2-9a55"/>
@@ -321,8 +323,8 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ee9-02f7-68ef-038b" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Spearman inherent abilities" hidden="false" id="c9ea-08d1-f8e3-7da7" type="selectionEntryGroup" targetId="49cf-b8c7-c73f-0d8d" collective="true"/>
-        <entryLink import="true" name="Commandgroup" hidden="false" id="e08d-c997-9f38-7312" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5">
+        <entryLink import="true" name="Spearman inherent abilities" hidden="false" id="c9ea-08d1-f8e3-7da7" type="selectionEntryGroup" targetId="49cf-b8c7-c73f-0d8d" collective="true" sortIndex="3"/>
+        <entryLink import="true" name="Commandgroup" hidden="false" id="e08d-c997-9f38-7312" type="selectionEntry" targetId="b6f0-6cae-cc1a-0de5" sortIndex="1">
           <modifiers>
             <modifier type="add" value="2c08-30a5-a557-882a" field="category" scope="parent" affects="self.entries.forces.recursive">
               <conditions>
@@ -337,7 +339,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Militant monk" hidden="false" id="6007-1de5-ddb2-a07f" collective="false">
           <entryLinks>
-            <entryLink import="true" name="Militant monk Experience level" hidden="false" id="0522-4cab-e4b3-5111" type="selectionEntryGroup" targetId="51e8-3ab2-8338-60be" collective="true">
+            <entryLink import="true" name="Militant monk Experience level" hidden="false" id="0522-4cab-e4b3-5111" type="selectionEntryGroup" targetId="51e8-3ab2-8338-60be" collective="true" sortIndex="1">
               <modifiers>
                 <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
                   <conditions>
@@ -351,7 +353,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="537e-d483-d99d-54a0" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Militant monk Weapon" hidden="false" id="f634-87ca-9787-41e5" type="selectionEntryGroup" targetId="fc31-51a7-6846-c2e3" collective="true"/>
+            <entryLink import="true" name="Militant monk Weapon" hidden="false" id="f634-87ca-9787-41e5" type="selectionEntryGroup" targetId="fc31-51a7-6846-c2e3" collective="true" sortIndex="2"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="1398-a010-af64-6b11"/>
@@ -374,7 +376,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Levy" hidden="false" id="1806-1295-993b-2e0e">
           <entryLinks>
-            <entryLink import="true" name="Levy Experience level" hidden="false" id="0296-ae97-b7a7-4e4f" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc">
+            <entryLink import="true" name="Levy Experience level" hidden="false" id="0296-ae97-b7a7-4e4f" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc" sortIndex="1">
               <modifiers>
                 <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
                   <conditions>
@@ -384,7 +386,7 @@
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Levy shield" hidden="false" id="26af-77b2-cc75-ebfb" type="selectionEntryGroup" targetId="5cc9-b06f-44c4-8d85"/>
-            <entryLink import="true" name="Levy weapon" hidden="false" id="3164-ce36-c638-3d9f" type="selectionEntryGroup" targetId="3df8-4b9e-b427-5a1c"/>
+            <entryLink import="true" name="Levy weapon" hidden="false" id="3164-ce36-c638-3d9f" type="selectionEntryGroup" targetId="3df8-4b9e-b427-5a1c" sortIndex="2"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="05ed-2fa7-c6bb-1557"/>
@@ -407,15 +409,14 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Baron" hidden="false" id="b9e2-310d-dca5-0d09">
           <entryLinks>
-            <entryLink import="true" name="Baron experience level" hidden="false" id="e1ba-4ed5-5089-1621" type="selectionEntryGroup" targetId="61a7-8140-e62d-a848">
+            <entryLink import="true" name="Baron experience level" hidden="false" id="e1ba-4ed5-5089-1621" type="selectionEntryGroup" targetId="61a7-8140-e62d-a848" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5bc-975a-f0c4-0896" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fc1-4734-7330-9360" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Baron inherent abilities" hidden="false" id="b9ca-f3ec-59c0-243d" type="selectionEntryGroup" targetId="a268-b21a-64f9-38ea"/>
             <entryLink import="true" name="Baron shield" hidden="false" id="25e6-6b8d-a9e6-a02f" type="selectionEntryGroup" targetId="fb81-5bc8-1b37-f332"/>
-            <entryLink import="true" name="Baron Weapon" hidden="false" id="3cc0-9e4f-df73-d07f" type="selectionEntryGroup" targetId="8657-6068-d4c9-215a"/>
+            <entryLink import="true" name="Baron Weapon" hidden="false" id="3cc0-9e4f-df73-d07f" type="selectionEntryGroup" targetId="8657-6068-d4c9-215a" sortIndex="3"/>
             <entryLink import="true" name="Tier3 command upgrades " hidden="false" id="aa21-eb94-beeb-7430" type="selectionEntryGroup" targetId="cf5c-2aa2-9b2c-f23c"/>
             <entryLink import="true" name="Mail" hidden="false" id="7d6f-90a4-3b1c-2426" type="selectionEntry" targetId="b805-5e69-0339-2595">
               <constraints>
@@ -423,7 +424,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="764f-9df0-82df-7c2d" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Retinue leader" hidden="false" id="97b8-1032-f83c-221b" type="selectionEntryGroup" targetId="6120-a075-6900-f77f"/>
+            <entryLink import="true" name="Retinue leader" hidden="false" id="97b8-1032-f83c-221b" type="selectionEntryGroup" targetId="6120-a075-6900-f77f" sortIndex="1"/>
           </entryLinks>
           <rules>
             <rule name="Command group" id="b2b1-2ce0-148b-2d08" hidden="false">
@@ -445,6 +446,7 @@
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4572-541a-9f3f-b739" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Baron inherent abilities" hidden="false" id="b9ca-f3ec-59c0-243d" type="selectionEntryGroup" targetId="a268-b21a-64f9-38ea"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink targetId="e069-c059-b935-c3ac" id="180a-371c-4425-7ed2" primary="true" name="Baron (Tier3)"/>
@@ -478,6 +480,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Lord Inherent Abilities" hidden="false" id="4af2-68f8-4432-27ed" type="selectionEntryGroup" targetId="10eb-5d02-bfdf-9de2"/>
+            <entryLink import="true" name="Retinue leader" hidden="false" id="9dba-2839-dbfb-9b01" type="selectionEntryGroup" targetId="6120-a075-6900-f77f" sortIndex="1"/>
           </entryLinks>
           <rules>
             <rule name="Command group" id="f5fe-3a7d-32e3-ab4b" hidden="false">
@@ -505,28 +508,29 @@
             <categoryLink name="Baron (Tier3)" hidden="false" id="d137-88c5-2efe-fc5f" targetId="e069-c059-b935-c3ac" primary="true"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink import="true" name="Mounted Baron experience level" hidden="false" id="b74c-79cd-e5fa-a85e" type="selectionEntryGroup" targetId="df5f-611c-e3aa-f548">
+            <entryLink import="true" name="Mounted Baron experience level" hidden="false" id="b74c-79cd-e5fa-a85e" type="selectionEntryGroup" targetId="df5f-611c-e3aa-f548" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e1b2-41d6-8d25-8c90" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89a8-3bc7-e27e-14e0" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Mounted Baron may choose weapon" hidden="false" id="b676-ed10-6106-6c06" type="selectionEntryGroup" targetId="bcc6-1caf-2490-136e"/>
-            <entryLink import="true" name="Mounted Baron shield" hidden="false" id="977b-e9b7-5a16-b006" type="selectionEntryGroup" targetId="d42a-d12f-7e59-d122"/>
-            <entryLink import="true" name="Mounted Baron Weapon" hidden="false" id="9143-4cd0-6a6d-8d19" type="selectionEntryGroup" targetId="645f-7613-1780-fa65"/>
+            <entryLink import="true" name="Mounted Baron may choose weapon" hidden="false" id="b676-ed10-6106-6c06" type="selectionEntryGroup" targetId="bcc6-1caf-2490-136e" sortIndex="4"/>
+            <entryLink import="true" name="Mounted Baron shield" hidden="false" id="977b-e9b7-5a16-b006" type="selectionEntryGroup" targetId="d42a-d12f-7e59-d122" sortIndex="5"/>
+            <entryLink import="true" name="Mounted Baron Weapon" hidden="false" id="9143-4cd0-6a6d-8d19" type="selectionEntryGroup" targetId="645f-7613-1780-fa65" sortIndex="3"/>
             <entryLink import="true" name="Mail" hidden="false" id="622c-b482-5da3-a399" type="selectionEntry" targetId="b805-5e69-0339-2595">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3b6-709f-0b19-2b82" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e788-f4fc-357e-f0cf" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Mounts" hidden="false" id="c644-364d-8a38-1e38" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86">
+            <entryLink import="true" name="Mounts" hidden="false" id="c644-364d-8a38-1e38" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86" sortIndex="6">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe18-5905-9777-ddd8" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4e0c-1819-7e39-ab8c" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Tier3 command upgrades " hidden="false" id="67cf-0b29-de1b-3813" type="selectionEntryGroup" targetId="cf5c-2aa2-9b2c-f23c"/>
+            <entryLink import="true" name="Tier3 command upgrades " hidden="false" id="67cf-0b29-de1b-3813" type="selectionEntryGroup" targetId="cf5c-2aa2-9b2c-f23c" sortIndex="7"/>
+            <entryLink import="true" name="Retinue leader" hidden="false" id="9fe4-c178-4160-91fc" type="selectionEntryGroup" targetId="6120-a075-6900-f77f" sortIndex="1"/>
           </entryLinks>
           <rules>
             <rule name="Command group" id="5af5-dda7-58eb-28a2" hidden="false">
@@ -554,7 +558,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mounted Lord" hidden="false" id="c654-b8c2-a498-9a9f">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mounted Lord" hidden="false" id="d427-ad05-d1e5-47b6">
+        <selectionEntry type="model" import="true" name="Mounted Lord" hidden="false" id="d427-ad05-d1e5-47b6" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Lord (Tier2)" hidden="false" id="b92a-8a15-c690-2706" targetId="cd4c-842d-9dc6-02a8" primary="true"/>
           </categoryLinks>
@@ -565,21 +569,22 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb29-9b41-02c3-fd71" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Tier2 command upgrades" hidden="false" id="7d8c-e994-4732-48c7" type="selectionEntryGroup" targetId="2f53-5ca3-4afc-0f22"/>
-            <entryLink import="true" name="Mounts" hidden="false" id="9f9c-67a0-b23e-78e4" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86">
+            <entryLink import="true" name="Tier2 command upgrades" hidden="false" id="7d8c-e994-4732-48c7" type="selectionEntryGroup" targetId="2f53-5ca3-4afc-0f22" sortIndex="7"/>
+            <entryLink import="true" name="Mounts" hidden="false" id="9f9c-67a0-b23e-78e4" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86" sortIndex="6">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5f1a-f25d-a6a5-2c39" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9e9c-0d21-2d6b-0a75" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Mounted Lord experience level" hidden="false" id="0132-b52d-90d5-3a55" type="selectionEntryGroup" targetId="7352-0be1-a3fb-386d"/>
-            <entryLink import="true" name="Mounted Lord may choose weapon" hidden="false" id="df53-380f-fdfa-e160" type="selectionEntryGroup" targetId="8f96-4297-0824-5d73">
+            <entryLink import="true" name="Mounted Lord experience level" hidden="false" id="0132-b52d-90d5-3a55" type="selectionEntryGroup" targetId="7352-0be1-a3fb-386d" sortIndex="2"/>
+            <entryLink import="true" name="Mounted Lord may choose weapon" hidden="false" id="df53-380f-fdfa-e160" type="selectionEntryGroup" targetId="8f96-4297-0824-5d73" sortIndex="4">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22d3-2571-9a1d-4a82" includeChildSelections="false"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Mounted Lord shield" hidden="false" id="e112-763e-b5ac-9918" type="selectionEntryGroup" targetId="e368-6b1b-a6ac-5613"/>
-            <entryLink import="true" name="Mounted Lord Weapon" hidden="false" id="221c-3667-25b3-93bf" type="selectionEntryGroup" targetId="376c-ad0d-1727-cb7c"/>
+            <entryLink import="true" name="Mounted Lord shield" hidden="false" id="e112-763e-b5ac-9918" type="selectionEntryGroup" targetId="e368-6b1b-a6ac-5613" sortIndex="5"/>
+            <entryLink import="true" name="Mounted Lord Weapon" hidden="false" id="221c-3667-25b3-93bf" type="selectionEntryGroup" targetId="376c-ad0d-1727-cb7c" sortIndex="3"/>
+            <entryLink import="true" name="Retinue leader" hidden="false" id="9054-51ad-13f4-c959" type="selectionEntryGroup" targetId="6120-a075-6900-f77f" sortIndex="1"/>
           </entryLinks>
           <rules>
             <rule name="Command group" id="b69a-f9dc-0045-3cac" hidden="false">
@@ -598,7 +603,7 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3816-b609-088c-51f1" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Mounted Lord Inherent Abilities" hidden="false" id="1d7c-c334-0e70-dc01" type="selectionEntryGroup" targetId="00a4-17c4-19a5-817a"/>
+        <entryLink import="true" name="Mounted Lord Inherent Abilities" hidden="false" id="1d7c-c334-0e70-dc01" type="selectionEntryGroup" targetId="00a4-17c4-19a5-817a" sortIndex="2"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink targetId="cd4c-842d-9dc6-02a8" id="afcb-4b63-845a-15e1" primary="true" name="Lord (Tier2)"/>
@@ -607,12 +612,12 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mounted serjeant at arms" hidden="false" id="9fb3-f9c1-3e72-3566">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mounted serjeant at arms" hidden="false" id="af60-e1ec-7fc2-f650">
+        <selectionEntry type="model" import="true" name="Mounted serjeant at arms" hidden="false" id="af60-e1ec-7fc2-f650" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Lord (Tier2)" hidden="false" id="17cd-3fdf-a88f-8ab6" targetId="cd4c-842d-9dc6-02a8" primary="true"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink import="true" name="Mounted Serjeant at arms experience level" hidden="false" id="5077-40a8-47e5-9d0c" type="selectionEntryGroup" targetId="af34-ad06-beb6-8d68"/>
+            <entryLink import="true" name="Mounted Serjeant at arms experience level" hidden="false" id="5077-40a8-47e5-9d0c" type="selectionEntryGroup" targetId="af34-ad06-beb6-8d68" sortIndex="2"/>
             <entryLink import="true" name="Mounted Serjeant at arms Armour" hidden="false" id="6a77-680e-6e1e-1230" type="selectionEntryGroup" targetId="6ce2-7feb-a820-518b">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0eff-6269-69ab-6dd0" includeChildSelections="false"/>
@@ -620,7 +625,7 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Mounted Serjeant at arms shield" hidden="false" id="7073-157d-7ba2-06ad" type="selectionEntryGroup" targetId="52a4-ed64-f98a-78e5"/>
-            <entryLink import="true" name="Mounted Serjeant at arms Weapon" hidden="false" id="5099-5018-0513-9cca" type="selectionEntryGroup" targetId="289d-692a-a758-184e"/>
+            <entryLink import="true" name="Mounted Serjeant at arms Weapon" hidden="false" id="5099-5018-0513-9cca" type="selectionEntryGroup" targetId="289d-692a-a758-184e" sortIndex="3"/>
             <entryLink import="true" name="Tier2 command upgrades" hidden="false" id="de6b-77ff-1bb5-5ead" type="selectionEntryGroup" targetId="2f53-5ca3-4afc-0f22"/>
             <entryLink import="true" name="Mounts" hidden="false" id="d964-0b26-6183-ac2d" type="selectionEntryGroup" targetId="6c23-04db-99bd-bc86">
               <constraints>
@@ -628,6 +633,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="07da-db90-848a-4433" includeChildSelections="false"/>
               </constraints>
             </entryLink>
+            <entryLink import="true" name="Retinue leader" hidden="false" id="eb54-cbca-4cf0-2452" type="selectionEntryGroup" targetId="6120-a075-6900-f77f" sortIndex="1"/>
           </entryLinks>
           <rules>
             <rule name="Command group" id="224b-8a7b-89f1-8bc2" hidden="false">
@@ -645,22 +651,22 @@
         <categoryLink targetId="2c08-30a5-a557-882a" id="c16c-1a85-01de-d3bf" primary="false" name="Commanders and Command Groups."/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="7bdc-a7ac-c721-f95b" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32">
+        <entryLink import="true" name="Feudal European abilities" hidden="false" id="7bdc-a7ac-c721-f95b" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" sortIndex="3">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2a62-d337-f319-9cbe" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Mounted Serjeant at arms Inherent Abilities" hidden="false" id="862c-fd8e-8831-779a" type="selectionEntryGroup" targetId="3c40-5969-eac5-b9a8"/>
+        <entryLink import="true" name="Mounted Serjeant at arms Inherent Abilities" hidden="false" id="862c-fd8e-8831-779a" type="selectionEntryGroup" targetId="3c40-5969-eac5-b9a8" sortIndex="2"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Serjeant at arms" hidden="false" id="29ec-0ed1-4f23-e2bb">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Serjeant at arms" hidden="false" id="9f16-a9ac-b687-6448">
+        <selectionEntry type="model" import="true" name="Serjeant at arms" hidden="false" id="9f16-a9ac-b687-6448" sortIndex="1">
           <categoryLinks>
             <categoryLink name="Lord (Tier2)" hidden="false" id="32b8-bc1f-f6fa-bad9" targetId="cd4c-842d-9dc6-02a8" primary="true"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink import="true" name="Serjeant at arms experience level" hidden="false" id="6489-e506-11bb-d039" type="selectionEntryGroup" targetId="6ae1-6f8b-fe86-f55d"/>
+            <entryLink import="true" name="Serjeant at arms experience level" hidden="false" id="6489-e506-11bb-d039" type="selectionEntryGroup" targetId="6ae1-6f8b-fe86-f55d" sortIndex="2"/>
             <entryLink import="true" name="Serjeant at arms Armour" hidden="false" id="18f1-6285-4a0b-2913" type="selectionEntryGroup" targetId="dc8e-1eac-6329-98d4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="360b-7590-b099-fd13" includeChildSelections="false"/>
@@ -668,9 +674,9 @@
               </constraints>
             </entryLink>
             <entryLink import="true" name="Serjeant at arms shield" hidden="false" id="1af9-6ec4-7c4e-735a" type="selectionEntryGroup" targetId="aaa2-218c-8258-4863"/>
-            <entryLink import="true" name="Serjeant at arms Weapon" hidden="false" id="b0e8-93ff-3820-55cc" type="selectionEntryGroup" targetId="1202-8d6b-d5ea-c278"/>
+            <entryLink import="true" name="Serjeant at arms Weapon" hidden="false" id="b0e8-93ff-3820-55cc" type="selectionEntryGroup" targetId="1202-8d6b-d5ea-c278" sortIndex="3"/>
             <entryLink import="true" name="Tier2 command upgrades" hidden="false" id="72df-eeaf-c596-4ea9" type="selectionEntryGroup" targetId="2f53-5ca3-4afc-0f22"/>
-            <entryLink import="true" name="Retinue leader" hidden="false" id="776f-9dbc-4d84-d0e4" type="selectionEntryGroup" targetId="6120-a075-6900-f77f"/>
+            <entryLink import="true" name="Retinue leader" hidden="false" id="776f-9dbc-4d84-d0e4" type="selectionEntryGroup" targetId="6120-a075-6900-f77f" sortIndex="1"/>
           </entryLinks>
           <rules>
             <rule name="Command Group" id="c7ce-6e72-38d3-b7cd" hidden="false">
@@ -689,7 +695,7 @@
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="95b6-6b29-87c6-d832" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Serjeant at arms Inherent Abilities" hidden="false" id="0222-3025-1119-ed4c" type="selectionEntryGroup" targetId="2fc5-0399-3eea-bc0d"/>
+        <entryLink import="true" name="Serjeant at arms Inherent Abilities" hidden="false" id="0222-3025-1119-ed4c" type="selectionEntryGroup" targetId="2fc5-0399-3eea-bc0d" sortIndex="2"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink targetId="cd4c-842d-9dc6-02a8" id="26c6-6ba4-a15a-75d3" primary="true" name="Lord (Tier2)"/>
