@@ -2829,14 +2829,14 @@ If this movement takes the Group off the table, it plays no further part in theÂ
     </selectionEntryGroup>
     <selectionEntryGroup name="Levy weapon" id="3df8-4b9e-b427-5a1c" hidden="false">
       <entryLinks>
-        <entryLink import="true" name="Hand Weapon" hidden="false" id="a0b5-f4d7-f1f6-041a" type="selectionEntry" targetId="2c27-d8b4-b598-7a67" collective="true"/>
-        <entryLink import="true" name="Spear" hidden="false" id="327a-c19e-a695-e9ce" type="selectionEntry" targetId="b5d6-e3f3-2300-d647" collective="true"/>
-        <entryLink import="true" name="Sling" hidden="false" id="3d4d-4d54-8c47-fef2" type="selectionEntry" targetId="b7d9-53b5-9fce-6b80" collective="true"/>
-        <entryLink import="true" name="ImprovisedTwo HandedWeapon" hidden="false" id="9541-60cc-5eae-b460" type="selectionEntry" targetId="ab76-e960-c997-c3c6" collective="true"/>
+        <entryLink import="true" name="Hand Weapon" hidden="false" id="a0b5-f4d7-f1f6-041a" type="selectionEntry" targetId="2c27-d8b4-b598-7a67" collective="true" sortIndex="1"/>
+        <entryLink import="true" name="Spear" hidden="false" id="327a-c19e-a695-e9ce" type="selectionEntry" targetId="b5d6-e3f3-2300-d647" collective="true" sortIndex="2"/>
+        <entryLink import="true" name="Sling" hidden="false" id="3d4d-4d54-8c47-fef2" type="selectionEntry" targetId="b7d9-53b5-9fce-6b80" collective="true" sortIndex="3"/>
+        <entryLink import="true" name="Improvised Two HandedWeapon" hidden="false" id="9541-60cc-5eae-b460" type="selectionEntry" targetId="ab76-e960-c997-c3c6" collective="true" sortIndex="4"/>
       </entryLinks>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1ba-b692-f0f1-0948" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="078b-cf30-7c1f-6cc8" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7601-0c5b-c10e-3105" includeChildSelections="false"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Levy shield" id="5cc9-b06f-44c4-8d85" hidden="false">
@@ -4160,6 +4160,22 @@ If this movement takes the Group off the table, it plays no further part in theÂ
       <entryLinks>
         <entryLink import="true" name="Retinue leader" hidden="false" id="2239-2e52-dcfe-c107" type="selectionEntry" targetId="f22f-64e5-c004-14b0"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Levy extra range weapon" id="85f9-eb71-52d4-f4af" hidden="true">
+      <entryLinks>
+        <entryLink import="true" name="Sling" hidden="false" id="3402-5d5e-1f7a-6c04" type="selectionEntry" targetId="b7d9-53b5-9fce-6b80" collective="true"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="42e0-5c6e-e23a-2644" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fe3e-fa06-a9b5-2ef9" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="false" field="hidden">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="07b7-519c-f700-71a3" childId="84d6-3e2a-a7cb-1404" shared="true" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </gameSystem>

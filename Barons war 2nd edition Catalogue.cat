@@ -387,6 +387,7 @@
             </entryLink>
             <entryLink import="true" name="Levy shield" hidden="false" id="26af-77b2-cc75-ebfb" type="selectionEntryGroup" targetId="5cc9-b06f-44c4-8d85"/>
             <entryLink import="true" name="Levy weapon" hidden="false" id="3164-ce36-c638-3d9f" type="selectionEntryGroup" targetId="3df8-4b9e-b427-5a1c" sortIndex="2"/>
+            <entryLink import="true" name="Levy extra range weapon" hidden="false" id="2294-0e90-1d35-7dc4" type="selectionEntryGroup" targetId="85f9-eb71-52d4-f4af"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="05ed-2fa7-c6bb-1557"/>
