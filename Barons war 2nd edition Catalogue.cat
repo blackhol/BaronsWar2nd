@@ -376,7 +376,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Levy" hidden="false" id="1806-1295-993b-2e0e">
           <entryLinks>
-            <entryLink import="true" name="Levy Experience level" hidden="false" id="0296-ae97-b7a7-4e4f" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc" sortIndex="1">
+            <entryLink import="true" name="Levy Experience level" hidden="false" id="0296-ae97-b7a7-4e4f" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc" sortIndex="1" collective="true">
               <modifiers>
                 <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
                   <conditions>
@@ -385,9 +385,9 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Levy shield" hidden="false" id="26af-77b2-cc75-ebfb" type="selectionEntryGroup" targetId="5cc9-b06f-44c4-8d85"/>
-            <entryLink import="true" name="Levy weapon" hidden="false" id="3164-ce36-c638-3d9f" type="selectionEntryGroup" targetId="3df8-4b9e-b427-5a1c" sortIndex="2"/>
-            <entryLink import="true" name="Levy extra range weapon" hidden="false" id="2294-0e90-1d35-7dc4" type="selectionEntryGroup" targetId="85f9-eb71-52d4-f4af"/>
+            <entryLink import="true" name="Levy shield" hidden="false" id="26af-77b2-cc75-ebfb" type="selectionEntryGroup" targetId="5cc9-b06f-44c4-8d85" collective="true"/>
+            <entryLink import="true" name="Levy weapon" hidden="false" id="3164-ce36-c638-3d9f" type="selectionEntryGroup" targetId="3df8-4b9e-b427-5a1c" sortIndex="2" collective="true"/>
+            <entryLink import="true" name="Levy extra range weapon" hidden="false" id="2294-0e90-1d35-7dc4" type="selectionEntryGroup" targetId="85f9-eb71-52d4-f4af" collective="true"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="05ed-2fa7-c6bb-1557"/>

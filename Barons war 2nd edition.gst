@@ -71,7 +71,7 @@
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="2c27-d8b4-b598-7a67" name="Hand Weapon" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="2c27-d8b4-b598-7a67" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="876e-2532-46a8-3f44" name="Hand Weapon" hidden="false" typeId="dcb9-1413-7f76-795d" typeName="Equipement">
           <characteristics>
@@ -2832,7 +2832,7 @@ If this movement takes the Group off the table, it plays no further part in theÂ
         <entryLink import="true" name="Hand Weapon" hidden="false" id="a0b5-f4d7-f1f6-041a" type="selectionEntry" targetId="2c27-d8b4-b598-7a67" collective="true" sortIndex="1"/>
         <entryLink import="true" name="Spear" hidden="false" id="327a-c19e-a695-e9ce" type="selectionEntry" targetId="b5d6-e3f3-2300-d647" collective="true" sortIndex="2"/>
         <entryLink import="true" name="Sling" hidden="false" id="3d4d-4d54-8c47-fef2" type="selectionEntry" targetId="b7d9-53b5-9fce-6b80" collective="true" sortIndex="3"/>
-        <entryLink import="true" name="Improvised Two HandedWeapon" hidden="false" id="9541-60cc-5eae-b460" type="selectionEntry" targetId="ab76-e960-c997-c3c6" collective="true" sortIndex="4"/>
+        <entryLink import="true" name="ImprovisedTwo HandedWeapon" hidden="false" id="9541-60cc-5eae-b460" type="selectionEntry" targetId="ab76-e960-c997-c3c6" collective="true" sortIndex="4"/>
       </entryLinks>
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f1ba-b692-f0f1-0948" includeChildSelections="false"/>
@@ -3677,7 +3677,7 @@ If this movement takes the Group off the table, it plays no further part in theÂ
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="3578-c8c4-2aba-0350" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="3578-c8c4-2aba-0350" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
             <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
