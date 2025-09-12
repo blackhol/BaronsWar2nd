@@ -442,7 +442,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="25a6-0c9f-7ca8-3f3e" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32">
+        <entryLink import="true" name="Feudal European abilities Baron" hidden="false" id="25a6-0c9f-7ca8-3f3e" type="selectionEntryGroup" targetId="87e9-31ed-7e2c-8241">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4572-541a-9f3f-b739" includeChildSelections="false"/>
           </constraints>
@@ -495,7 +495,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="56dd-c336-6947-cd9c" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32">
+        <entryLink import="true" name="Feudal European abilities Lord" hidden="false" id="56dd-c336-6947-cd9c" type="selectionEntryGroup" targetId="e83a-bc2c-8a4c-e447">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8a3d-53c8-6e46-1474" includeChildSelections="false"/>
           </constraints>
@@ -545,7 +545,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="d84d-9a9c-58fa-e180" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32">
+        <entryLink import="true" name="Feudal European abilities Baron" hidden="false" id="d84d-9a9c-58fa-e180" type="selectionEntryGroup" targetId="87e9-31ed-7e2c-8241">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="edfa-8dd1-9cd4-24d9" includeChildSelections="false"/>
           </constraints>
@@ -599,7 +599,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="6a67-3ae8-55e1-89a4" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32">
+        <entryLink import="true" name="Feudal European abilities Lord" hidden="false" id="6a67-3ae8-55e1-89a4" type="selectionEntryGroup" targetId="e83a-bc2c-8a4c-e447">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3816-b609-088c-51f1" includeChildSelections="false"/>
           </constraints>
@@ -652,7 +652,7 @@
         <categoryLink targetId="2c08-30a5-a557-882a" id="c16c-1a85-01de-d3bf" primary="false" name="Commanders and Command Groups."/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="7bdc-a7ac-c721-f95b" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" sortIndex="3">
+        <entryLink import="true" name="Feudal European abilities Serjant" hidden="false" id="7bdc-a7ac-c721-f95b" type="selectionEntryGroup" targetId="a79a-d1bd-8405-2cd3" sortIndex="3">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="2a62-d337-f319-9cbe" includeChildSelections="false"/>
           </constraints>
@@ -691,7 +691,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="8839-984a-571f-7702" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32">
+        <entryLink import="true" name="Feudal European abilities Serjant" hidden="false" id="8839-984a-571f-7702" type="selectionEntryGroup" targetId="a79a-d1bd-8405-2cd3">
           <constraints>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="95b6-6b29-87c6-d832" includeChildSelections="false"/>
           </constraints>

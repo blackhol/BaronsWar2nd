@@ -4177,5 +4177,1610 @@ If this movement takes the Group off the table, it plays no further part in theÂ
         </modifier>
       </modifiers>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Feudal European abilities Baron" id="87e9-31ed-7e2c-8241" hidden="false" collapsible="true" defaultSelectionEntryId="none">
+      <entryLinks>
+        <entryLink import="true" name="Attack back" hidden="false" id="9f21-f63b-3a48-bae0" type="selectionEntry" targetId="adb4-5f95-c930-03cd" collective="true">
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d658-1a3f-4d40-7518" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Born for war" hidden="false" id="fb6a-4ffb-0365-8d8b" type="selectionEntry" targetId="722e-62ad-f4bc-79b7" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d454-232d-b51b-7b96" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Brave" hidden="false" id="7354-e1f1-d641-5b4f" type="selectionEntry" targetId="7196-e6ee-bb82-e0b0" collective="true">
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b6c0-3256-5d0f-81c1" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Bulwark" hidden="false" id="3452-2373-8580-7c83" type="selectionEntry" targetId="4ae2-a91a-d742-49b9" collective="true">
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b493-4008-a346-5284" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Close ranks" hidden="true" id="94b5-d978-dac2-1154" type="selectionEntry" targetId="289f-eccf-0d3b-7ab3" collective="true">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="3578-c8c4-2aba-0350" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1575-211d-560a-0661" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="18d4-cf78-7dcf-521c" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Counter charge " hidden="true" id="a369-43e1-7797-1e00" type="selectionEntry" targetId="a0fd-71ca-4cab-12a8" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ec6-42e7-4f29-655d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8aaa-fecb-c2ea-e6e3" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f446-3f49-b681-09e1" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de78-136d-16ff-9cc0" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Courageous" hidden="false" id="5669-4b8a-1498-f177" type="selectionEntry" targetId="d6c2-f72b-2687-5d88" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7308-6fa2-6da8-3137" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="fbc6-53b8-a47c-1969" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Cruelty" hidden="true" id="bc6b-4c64-828d-01de" type="selectionEntry" targetId="71f5-8ba0-7767-3934" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="be3a-75ff-caf3-df43" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e453-407e-5a30-0758" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Drilled" hidden="false" id="1cd7-c6f5-1836-91df" type="selectionEntry" targetId="3c00-eaa9-b656-e694" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb35-a44f-8a63-eb90" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b4c7-b2d7-8fe3-c04b" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Experienced tactician" hidden="true" id="d047-4952-4b2d-f95d" type="selectionEntry" targetId="54a4-d4fe-a86b-2206" collective="true">
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc89-cfc1-8e70-7cef" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="32bd-9819-af92-7a61" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Faithful" hidden="false" id="f1b3-735d-ec89-7b7d" type="selectionEntry" targetId="2be5-5ae8-ce8f-a23e" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fce2-0348-abd6-0725" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e2ff-460d-9fa8-f4f5" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Fear" hidden="false" id="7923-b22e-d248-44ae" type="selectionEntry" targetId="886c-2ed5-42e4-052d" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31b7-bb21-1bd1-a7fd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="81aa-fe1b-8610-19da" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Follow me" hidden="false" id="dcc1-e737-3284-2b91" type="selectionEntry" targetId="bf9f-4220-9243-c38f" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e6d5-dad5-4f9d-3e4d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="550f-4468-4f87-b922" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Formidable" hidden="true" id="62cf-2f28-702f-cb83" type="selectionEntry" targetId="0da8-b0c2-8c82-86e7" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5919-4d1c-fbd0-0652" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7e3c-92b3-c74d-06b5" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Glory seekers" hidden="false" id="3080-09ce-a144-d994" type="selectionEntry" targetId="64bd-fb83-76c5-a878" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14f0-40e1-7224-6173" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3894-9cbb-6d53-346b" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Gutter thug" hidden="false" id="ad2a-53ac-f466-72fc" type="selectionEntry" targetId="fd96-6e28-f481-c0a5" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="efe6-8f6a-3ef2-7e0b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a8aa-efaf-f19e-9070" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Holy relic" hidden="false" id="54f7-1846-ff13-e43d" type="selectionEntry" targetId="fb46-8f74-4034-c547" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b5c6-f07f-1c62-8ceb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4c11-43f0-242c-633e" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Inspired leader" hidden="true" id="dfdb-f0e3-99d2-2b61" type="selectionEntry" targetId="2be2-097f-f079-c118" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="66bf-066b-32c1-b9ba" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bf4f-22be-45d7-4721" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Master fletcher" hidden="false" id="e158-3546-9781-8a6e" type="selectionEntry" targetId="d94a-7760-65b5-a284" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="681b-1fd0-5b40-4795" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a655-8fba-3208-c3f3" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Measured shot" hidden="false" id="07e1-466a-1a16-f008" type="selectionEntry" targetId="2a9a-9da5-fdb3-1448" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cc0e-ef24-c88f-8f27" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f3ff-eeec-7a24-6be4" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Nimble" hidden="false" id="3b8b-7ad0-497f-b709" type="selectionEntry" targetId="7510-278b-1d3e-8c80" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0af6-e122-ab9f-0296" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0155-2758-be15-db17" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="88b7-9c20-da54-3855" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="b805-5e69-0339-2595" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Old soldiers" hidden="false" id="4ff7-c590-3cf8-1639" type="selectionEntry" targetId="0b06-730e-c282-723c" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="85b8-0fb9-7e8d-cdd8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="4215-b628-06f8-d5d4" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Open up" hidden="false" id="6375-65b2-a14b-9a21" type="selectionEntry" targetId="3d84-131f-6c44-be0f" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8ce-d59e-f816-1c33" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="26a5-3c25-f4d9-b742" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Rage" hidden="false" id="7b42-8148-156e-5d82" type="selectionEntry" targetId="5f4a-aa91-267b-e374" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="141b-b29f-f84f-5b60" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d7bf-8e8d-cc48-0a5b" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Raise shields" hidden="false" id="adbd-5d19-484b-6f3d" type="selectionEntry" targetId="2554-9ecc-84dc-ed2a" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7df0-d691-f9ce-7bce" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a78b-530b-cb16-955a" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Robust" hidden="true" id="83bd-1be0-efc6-b919" type="selectionEntry" targetId="c71e-345e-55fc-a138" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b554-1d16-e453-d290" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0097-64d6-816c-8a07" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Skirmisher" hidden="false" id="bd00-2299-da65-1c43" type="selectionEntry" targetId="d4e8-220e-62c0-19d5" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3b7-4707-4915-4727" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a2e8-5129-9b4f-1ab2" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="88b7-9c20-da54-3855" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="b805-5e69-0339-2595" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Surefooted" hidden="false" id="2a3c-16bd-6c14-2886" type="selectionEntry" targetId="27b5-b826-f15c-eb1c" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3102-21e2-63d3-2d6b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a2eb-3bc7-561c-2247" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Veteran Crusader" hidden="true" id="3bc1-5022-8886-51dd" type="selectionEntry" targetId="565e-5269-c762-318a" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="82cc-7075-beec-2319" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="41f0-d951-d3d7-a1db" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Weapon choice" hidden="false" id="fb61-fac3-d9fd-19e3" type="selectionEntry" targetId="c6fb-86d6-3577-95fa" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4410-30c3-6201-0352" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f9ba-25ae-8e2f-60f7" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Feudal European abilities Lord" id="e83a-bc2c-8a4c-e447" hidden="false" collapsible="true" defaultSelectionEntryId="none">
+      <entryLinks>
+        <entryLink import="true" name="Attack back" hidden="false" id="55c0-3c1f-3f2a-54d0" type="selectionEntry" targetId="adb4-5f95-c930-03cd" collective="true">
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b651-f91f-176b-055f" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Born for war" hidden="false" id="7cff-30a2-9cee-c5d1" type="selectionEntry" targetId="722e-62ad-f4bc-79b7" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="9497-5676-5bf2-a70d" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Brave" hidden="false" id="812e-a8f2-2297-bf70" type="selectionEntry" targetId="7196-e6ee-bb82-e0b0" collective="true">
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="88a2-9163-0675-5750" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Bulwark" hidden="false" id="e900-b695-8f6d-f136" type="selectionEntry" targetId="4ae2-a91a-d742-49b9" collective="true">
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a790-7787-c731-d86f" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Close ranks" hidden="true" id="e1c2-9b8d-f2a0-cc96" type="selectionEntry" targetId="289f-eccf-0d3b-7ab3" collective="true">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="3578-c8c4-2aba-0350" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="caf7-784e-beab-05ff" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cca0-8bd1-83e3-10ad" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Counter charge " hidden="true" id="ed49-d3e8-cbee-570f" type="selectionEntry" targetId="a0fd-71ca-4cab-12a8" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2e4-7d20-1340-f831" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6ae1-4455-73f5-930e" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f446-3f49-b681-09e1" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de78-136d-16ff-9cc0" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Courageous" hidden="false" id="522d-3628-f96c-a699" type="selectionEntry" targetId="d6c2-f72b-2687-5d88" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4e6-9f3a-5571-8e07" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1d84-fcd1-2959-0f19" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Cruelty" hidden="true" id="8f35-2ba8-f01d-fc53" type="selectionEntry" targetId="71f5-8ba0-7767-3934" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b1f4-7f9b-2632-f274" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2266-364a-0175-e393" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Drilled" hidden="false" id="acff-1701-67db-87a8" type="selectionEntry" targetId="3c00-eaa9-b656-e694" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6445-5421-9e01-1b6d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2cc1-14f2-ac39-c4ad" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Experienced tactician" hidden="true" id="2813-91af-81be-f94d" type="selectionEntry" targetId="54a4-d4fe-a86b-2206" collective="true">
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="79bc-2311-159c-9c4f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0c96-d2c1-217f-eecf" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Faithful" hidden="false" id="3072-37a5-58cf-c792" type="selectionEntry" targetId="2be5-5ae8-ce8f-a23e" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d558-7487-a22f-ad4c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3105-c6db-a1e1-f4d5" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Fear" hidden="false" id="0d0f-3f53-29f3-2da1" type="selectionEntry" targetId="886c-2ed5-42e4-052d" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef40-5ad2-e2f7-a916" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6c5e-052e-4a85-b81b" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Follow me" hidden="false" id="d079-ec5c-fcdd-814c" type="selectionEntry" targetId="bf9f-4220-9243-c38f" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8687-1729-38cc-eae7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8b95-e21a-5a50-e90a" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Formidable" hidden="true" id="fecd-a349-c39d-9343" type="selectionEntry" targetId="0da8-b0c2-8c82-86e7" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8df1-7ef4-7ad2-be17" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="438c-47b6-0ef9-e16c" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Glory seekers" hidden="false" id="2ec4-f654-dac4-1597" type="selectionEntry" targetId="64bd-fb83-76c5-a878" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f241-9a92-aa2e-f6b8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0b0c-8309-3d19-f0c3" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Gutter thug" hidden="false" id="96b4-2bb4-26d4-3c3f" type="selectionEntry" targetId="fd96-6e28-f481-c0a5" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4f06-9f42-117d-5c60" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5540-3788-e90a-dc6a" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Holy relic" hidden="false" id="20c9-8a5d-48c5-e47c" type="selectionEntry" targetId="fb46-8f74-4034-c547" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dda1-753c-3338-940f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ba4e-ae90-9ac1-bea2" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Inspired leader" hidden="true" id="6f8d-6825-697b-084b" type="selectionEntry" targetId="2be2-097f-f079-c118" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5fb2-bba6-0641-e516" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8e27-77fb-9eb9-a07c" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Master fletcher" hidden="false" id="87e5-2b8e-92a3-c871" type="selectionEntry" targetId="d94a-7760-65b5-a284" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="179e-d21e-f90f-8adc" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c26d-63af-9623-0c14" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Measured shot" hidden="false" id="4588-66fb-79fd-3002" type="selectionEntry" targetId="2a9a-9da5-fdb3-1448" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d385-f699-a87b-a10a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="020f-06ff-1be6-710c" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Nimble" hidden="false" id="1a1e-8494-569a-a133" type="selectionEntry" targetId="7510-278b-1d3e-8c80" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a066-0af2-c766-2969" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6f97-91c1-dd49-52c4" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="88b7-9c20-da54-3855" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="b805-5e69-0339-2595" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Old soldiers" hidden="false" id="d2f0-5803-829f-e9d6" type="selectionEntry" targetId="0b06-730e-c282-723c" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e56b-d423-03cd-eaad" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a41d-5773-30b9-9b89" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Open up" hidden="false" id="9131-f4b0-2252-43c3" type="selectionEntry" targetId="3d84-131f-6c44-be0f" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2b4-c1b0-f612-5610" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3a6f-e848-4779-9dce" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Rage" hidden="false" id="d4ff-9b95-c14c-b80a" type="selectionEntry" targetId="5f4a-aa91-267b-e374" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c6a5-c4d3-1bd2-f27f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="107a-0ae5-dccf-e5ae" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Raise shields" hidden="false" id="f950-189b-6cf7-a654" type="selectionEntry" targetId="2554-9ecc-84dc-ed2a" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ff3-622b-b043-9a08" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5b8b-3f0b-f13c-b735" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Robust" hidden="true" id="600a-d71a-a100-d491" type="selectionEntry" targetId="c71e-345e-55fc-a138" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f199-18a0-2d13-a3c7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c676-08e7-c86c-6ebd" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Skirmisher" hidden="false" id="06b1-d210-4c48-a853" type="selectionEntry" targetId="d4e8-220e-62c0-19d5" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c81-0f14-ad51-5bb3" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3722-aa5e-2d98-ccba" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="88b7-9c20-da54-3855" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="b805-5e69-0339-2595" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Surefooted" hidden="false" id="f603-afb5-59d2-6d52" type="selectionEntry" targetId="27b5-b826-f15c-eb1c" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="288b-9112-2c23-ff5f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="94e8-2a9b-4f58-2a37" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Veteran Crusader" hidden="true" id="aa8d-5564-af7e-6786" type="selectionEntry" targetId="565e-5269-c762-318a" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70df-7ad0-e180-e7b2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1edd-24c3-f6ab-dfe7" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Weapon choice" hidden="false" id="9ff1-5661-3114-ac28" type="selectionEntry" targetId="c6fb-86d6-3577-95fa" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3e0-b847-d4a2-fbef" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6f25-f0f4-99a8-47eb" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Feudal European abilities Serjant" id="a79a-d1bd-8405-2cd3" hidden="false" collapsible="true" defaultSelectionEntryId="none">
+      <entryLinks>
+        <entryLink import="true" name="Attack back" hidden="false" id="3f21-5230-745f-2ca7" type="selectionEntry" targetId="adb4-5f95-c930-03cd" collective="true">
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e3bd-fccc-692e-90aa" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Born for war" hidden="false" id="7491-b75b-34d5-a3f6" type="selectionEntry" targetId="722e-62ad-f4bc-79b7" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="502c-e970-f4d7-db88" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Brave" hidden="false" id="805a-891d-75a8-729c" type="selectionEntry" targetId="7196-e6ee-bb82-e0b0" collective="true">
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b030-0270-8193-5ff7" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Bulwark" hidden="false" id="818d-f460-af66-837f" type="selectionEntry" targetId="4ae2-a91a-d742-49b9" collective="true">
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3dd4-7efb-a088-988e" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Close ranks" hidden="true" id="f2e0-b183-c932-9f1d" type="selectionEntry" targetId="289f-eccf-0d3b-7ab3" collective="true">
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="3578-c8c4-2aba-0350" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1dec-a1fa-e97f-8e55" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8926-c962-d694-6216" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Counter charge " hidden="true" id="bae9-d863-eaa3-31c1" type="selectionEntry" targetId="a0fd-71ca-4cab-12a8" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="01f7-f41d-cf07-81d6" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a487-d6f0-9076-68eb" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="f446-3f49-b681-09e1" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="de78-136d-16ff-9cc0" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Courageous" hidden="false" id="2555-24f3-73d5-8727" type="selectionEntry" targetId="d6c2-f72b-2687-5d88" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de30-2b1c-af21-bd40" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ac2f-c494-b033-dfe9" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Cruelty" hidden="true" id="c112-58cf-7b03-b8cb" type="selectionEntry" targetId="71f5-8ba0-7767-3934" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c54-f664-62e3-7aba" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8f26-8b5d-8b79-14ac" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Drilled" hidden="false" id="4db6-e9a0-85bd-505d" type="selectionEntry" targetId="3c00-eaa9-b656-e694" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef4f-10fc-54c6-f012" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="049a-bd26-7c48-e381" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Experienced tactician" hidden="true" id="68af-1705-1406-e513" type="selectionEntry" targetId="54a4-d4fe-a86b-2206" collective="true">
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="05ea-2e0e-ba71-f60e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1738-e842-06fd-71c5" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Faithful" hidden="false" id="e973-ecfc-6a1c-bb33" type="selectionEntry" targetId="2be5-5ae8-ce8f-a23e" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a54-2000-4342-37a8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="744d-7982-7a00-e550" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Fear" hidden="false" id="0c63-5877-831c-4abf" type="selectionEntry" targetId="886c-2ed5-42e4-052d" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad67-cc70-38ce-a614" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6000-8e6c-8cc7-8beb" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Follow me" hidden="false" id="8483-74a4-a386-6c4f" type="selectionEntry" targetId="bf9f-4220-9243-c38f" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1976-fc9d-e0ab-c507" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="991d-ea3c-1ae3-3708" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Formidable" hidden="true" id="f52d-4087-f126-4c38" type="selectionEntry" targetId="0da8-b0c2-8c82-86e7" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e58f-2360-e88f-dd0d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="49a4-8cf9-144c-d331" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Glory seekers" hidden="false" id="21da-1721-cb5d-d635" type="selectionEntry" targetId="64bd-fb83-76c5-a878" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b51-dc39-9908-441f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b72a-a4f6-3770-8060" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Gutter thug" hidden="false" id="7970-e789-74b6-61be" type="selectionEntry" targetId="fd96-6e28-f481-c0a5" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b38e-eb66-0c38-e6fb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="e9cf-46cb-8c7c-92ba" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Holy relic" hidden="false" id="944e-d1d3-4166-47d4" type="selectionEntry" targetId="fb46-8f74-4034-c547" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="971b-5245-5244-6e0a" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="802e-aa7f-6899-be32" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Inspired leader" hidden="true" id="93a1-dc91-3827-f5ed" type="selectionEntry" targetId="2be2-097f-f079-c118" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6371-9024-37a8-f281" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="2205-2cc2-bd72-7bd8" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Master fletcher" hidden="false" id="8e02-3211-4d34-1fa7" type="selectionEntry" targetId="d94a-7760-65b5-a284" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd66-74b0-cdc3-1f2f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="097d-2252-0451-86fb" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Measured shot" hidden="false" id="d7b3-2572-d879-2882" type="selectionEntry" targetId="2a9a-9da5-fdb3-1448" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e718-9ca0-c99b-f3b2" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="877d-d3b1-fd9a-153b" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Nimble" hidden="false" id="a311-4fa7-e007-4e52" type="selectionEntry" targetId="7510-278b-1d3e-8c80" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fbdf-d1d0-1e16-b11f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0ef9-88e7-8b13-d251" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="88b7-9c20-da54-3855" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="b805-5e69-0339-2595" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Old soldiers" hidden="false" id="1d80-7b63-92d0-e3f0" type="selectionEntry" targetId="0b06-730e-c282-723c" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57df-9222-8dd4-92ce" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5067-3a0c-8373-125b" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Open up" hidden="false" id="b739-3e9f-3059-8c50" type="selectionEntry" targetId="3d84-131f-6c44-be0f" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c2cd-1f69-190f-6067" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0d09-625f-c25b-5d47" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Rage" hidden="false" id="74d8-ad92-a77f-e9ce" type="selectionEntry" targetId="5f4a-aa91-267b-e374" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77ce-8085-fa39-604d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5b91-d9b8-42f0-1138" includeChildSelections="true"/>
+          </constraints>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Raise shields" hidden="false" id="dfe1-80fa-317c-e9f3" type="selectionEntry" targetId="2554-9ecc-84dc-ed2a" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="62ee-a2bc-9e5e-3c27" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5ee5-662e-381e-e574" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Robust" hidden="true" id="64a5-c47f-36c7-016a" type="selectionEntry" targetId="c71e-345e-55fc-a138" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72f8-6757-5b19-6544" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="5d59-37c2-8044-c34e" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Skirmisher" hidden="false" id="6606-5e4a-735a-becb" type="selectionEntry" targetId="d4e8-220e-62c0-19d5" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="861f-df5d-6815-56cb" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6536-fa8e-4805-94d2" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="88b7-9c20-da54-3855" shared="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="b805-5e69-0339-2595" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" value="2" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Surefooted" hidden="false" id="0ba5-75ee-03a6-7aac" type="selectionEntry" targetId="27b5-b826-f15c-eb1c" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00c4-24cd-c436-9830" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="65d3-21c6-af37-fc03" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="increment" value="1" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Veteran Crusader" hidden="true" id="e8f5-4fbb-af07-4807" type="selectionEntry" targetId="565e-5269-c762-318a" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e069-a2fc-8bf9-d343" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="a5e4-7fc1-bc88-0182" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="333d-6137-77bc-eabd" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="3" field="f655-59ab-f98e-f417">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name=" Points" typeId="f655-59ab-f98e-f417" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Weapon choice" hidden="false" id="1e5a-6824-9723-b884" type="selectionEntry" targetId="c6fb-86d6-3577-95fa" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8463-4dba-814e-65ac" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="ff9c-f110-7a12-2b44" includeChildSelections="true"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </gameSystem>
