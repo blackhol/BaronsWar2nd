@@ -1883,10 +1883,10 @@ If this movement takes the Group off the table, it plays no further part in theÂ
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Cavalry Spear" hidden="false" id="736c-2ee7-140f-b15b">
       <profiles>
-        <profile name="New Entry" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="51d9-ff5a-8aae-df3b">
+        <profile name="Cavalry spear" typeId="dcb9-1413-7f76-795d" typeName="Equipement" hidden="false" id="51d9-ff5a-8aae-df3b">
           <characteristics>
-            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00"/>
-            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c"/>
+            <characteristic name="Modifier" typeId="af11-6378-a52a-ef00">-</characteristic>
+            <characteristic name="Effect" typeId="d8db-69de-4f02-bd8c">CAVALRY SPEAR - When Charging, mounted Warriors armed with Cavalry Spears gain +1 to their Attack rolls.</characteristic>
           </characteristics>
         </profile>
       </profiles>
