@@ -399,6 +399,11 @@
       </categoryLinks>
       <entryLinks>
         <entryLink import="true" name="Levy inherent abilitie" hidden="false" id="fed2-b4a8-e7b8-5dd6" type="selectionEntryGroup" targetId="c257-259e-a1be-0d6b" collective="true" sortIndex="3"/>
+        <entryLink import="true" name="Feudal European abilities" hidden="false" id="2d66-386c-8a96-153b" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f304-c5f8-26fd-0dd2" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Baron" hidden="false" id="07a6-8d41-bb14-0097">
