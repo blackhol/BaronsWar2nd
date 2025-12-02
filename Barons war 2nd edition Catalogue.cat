@@ -230,7 +230,7 @@
             </entryLink>
             <entryLink import="true" name="Crossbowman Experience level" hidden="false" id="c6b3-2570-be37-524c" type="selectionEntryGroup" targetId="602c-b5c6-5507-bcd4" collective="true" sortIndex="1">
               <modifiers>
-                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
+                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="unit" affects="self.entries.forces.recursive">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="79f3-6040-fe4c-eb2e" shared="true" includeChildSelections="true"/>
                   </conditions>
@@ -266,7 +266,7 @@
             </entryLink>
             <entryLink import="true" name="Bowman Experience level" hidden="false" id="d5fe-75bc-98f2-9919" type="selectionEntryGroup" targetId="0a5a-acd8-e43a-7fc2" collective="true" sortIndex="1">
               <modifiers>
-                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
+                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="unit" affects="self.entries.forces.recursive">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="79f3-6040-fe4c-eb2e" shared="true" includeChildSelections="false"/>
                   </conditions>
@@ -298,7 +298,7 @@
           <entryLinks>
             <entryLink import="true" name="Spearman Experience level" hidden="false" id="11bb-0b49-4665-3358" type="selectionEntryGroup" targetId="d5f2-401f-2d67-cbb2" collective="true" sortIndex="1">
               <modifiers>
-                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
+                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="unit" affects="self.entries.forces.recursive">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="79f3-6040-fe4c-eb2e" shared="true" includeChildSelections="false"/>
                   </conditions>
@@ -341,7 +341,7 @@
           <entryLinks>
             <entryLink import="true" name="Militant monk Experience level" hidden="false" id="0522-4cab-e4b3-5111" type="selectionEntryGroup" targetId="51e8-3ab2-8338-60be" collective="true" sortIndex="1">
               <modifiers>
-                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
+                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="unit" affects="self.entries.forces.recursive">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="79f3-6040-fe4c-eb2e" shared="true" includeChildSelections="false"/>
                   </conditions>
@@ -374,20 +374,20 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Levy" hidden="false" id="07b7-519c-f700-71a3">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Levy" hidden="false" id="1806-1295-993b-2e0e">
+        <selectionEntry type="model" import="true" name="Levy" hidden="false" id="1806-1295-993b-2e0e" sortIndex="1">
           <entryLinks>
             <entryLink import="true" name="Levy Experience level" hidden="false" id="0296-ae97-b7a7-4e4f" type="selectionEntryGroup" targetId="dbd9-772c-5899-ffcc" sortIndex="1" collective="true">
               <modifiers>
-                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="parent" affects="self.entries.forces.recursive">
+                <modifier type="add" value="2f15-65d2-478c-bd34" field="category" scope="unit" affects="self.entries.forces.recursive">
                   <conditions>
                     <condition type="atLeast" value="1" field="selections" scope="self" childId="79f3-6040-fe4c-eb2e" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink import="true" name="Levy shield" hidden="false" id="26af-77b2-cc75-ebfb" type="selectionEntryGroup" targetId="5cc9-b06f-44c4-8d85" collective="true"/>
+            <entryLink import="true" name="Levy shield" hidden="false" id="26af-77b2-cc75-ebfb" type="selectionEntryGroup" targetId="5cc9-b06f-44c4-8d85" collective="true" sortIndex="4"/>
             <entryLink import="true" name="Levy weapon" hidden="false" id="3164-ce36-c638-3d9f" type="selectionEntryGroup" targetId="3df8-4b9e-b427-5a1c" sortIndex="2" collective="true"/>
-            <entryLink import="true" name="Levy extra range weapon" hidden="false" id="2294-0e90-1d35-7dc4" type="selectionEntryGroup" targetId="85f9-eb71-52d4-f4af" collective="true"/>
+            <entryLink import="true" name="Levy extra range weapon" hidden="false" id="2294-0e90-1d35-7dc4" type="selectionEntryGroup" targetId="85f9-eb71-52d4-f4af" collective="true" sortIndex="3"/>
           </entryLinks>
           <constraints>
             <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="05ed-2fa7-c6bb-1557"/>
@@ -398,12 +398,7 @@
         <categoryLink targetId="31dd-0fdb-79bb-5162" id="ce0e-435d-0561-50de" primary="true" name="Warriors (Tier1)"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Feudal European abilities" hidden="false" id="d59a-e94e-869b-8c33" type="selectionEntryGroup" targetId="c5e4-4e17-d7b1-8c32" collective="true">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fbf-4bde-0b6c-6449" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink import="true" name="Levy inherent abilitie" hidden="false" id="fed2-b4a8-e7b8-5dd6" type="selectionEntryGroup" targetId="c257-259e-a1be-0d6b" collective="true"/>
+        <entryLink import="true" name="Levy inherent abilitie" hidden="false" id="fed2-b4a8-e7b8-5dd6" type="selectionEntryGroup" targetId="c257-259e-a1be-0d6b" collective="true" sortIndex="3"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Baron" hidden="false" id="07a6-8d41-bb14-0097">
@@ -446,6 +441,9 @@
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="4572-541a-9f3f-b739" includeChildSelections="false"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink targetId="e069-c059-b935-c3ac" id="37f8-9f0d-6a49-1c0b" primary="false" name="Baron (Tier3)"/>
+          </categoryLinks>
         </entryLink>
         <entryLink import="true" name="Baron inherent abilities" hidden="false" id="b9ca-f3ec-59c0-243d" type="selectionEntryGroup" targetId="a268-b21a-64f9-38ea"/>
       </entryLinks>
@@ -714,7 +712,7 @@
   <categoryEntries>
     <categoryEntry name="green troops" id="2f15-65d2-478c-bd34" hidden="true">
       <constraints>
-        <constraint type="min" value="10" field="limit::f655-59ab-f98e-f417" scope="roster" shared="true" id="e5a6-3950-d4f3-39b3" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="10" field="limit::f655-59ab-f98e-f417" scope="force" shared="true" id="e5a6-3950-d4f3-39b3" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </categoryEntry>
     <categoryEntry name="Commanders and Command Groups." id="2c08-30a5-a557-882a" hidden="false">
